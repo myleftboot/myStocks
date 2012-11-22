@@ -80,7 +80,7 @@ function refreshCurrencies(_args) {
 
 function createCurrencyPicker() {
 	var currencyPicker = Ti.UI.createPicker(
-		{height             :'30%',
+		{height             :'40%',
 		 selectionIndicator : true});
 	
 	// populate the picker from the SQLite currencies
